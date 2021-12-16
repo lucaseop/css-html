@@ -15,18 +15,14 @@ main{
     border-radius: 10px;
     box-shadow: 5px 5px 3px #145323a2;
 }
-
 h1{
     color: #D44DDB;
     text-align: center;
     text-shadow: 1px 1px 2px #4c1c4e7a;
-
 }
 h2{
     color: #8F8C40;
-
 }
-
 p {
     text-align: justify;
 }
