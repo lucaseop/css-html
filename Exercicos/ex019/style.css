@@ -16,3 +16,8 @@ h2{
     text-align: center;
     background-color: rgb(12, 82, 12);
 }
+.basico{
+    background-color: rgb(12, 82, 12);
+    color: white;
+    font-weight: bolder;
+}
