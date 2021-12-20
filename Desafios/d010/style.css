@@ -1,13 +1,8 @@
 @charset "UTF-8"
 
-@font-face {
-    font-family: 'android' ;
-    src: url('fontes/idroid.otf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
 }
 @font-face {
-    font-family: 'colvetica' ;
+    font-family: 'android1' ;
     src: url('fontes/FontsFree-Net-coolvetica-condensed-rg.ttf') format('truetype');
     font-weight: lighter;
     font-style: normal;
@@ -23,7 +18,7 @@
     --cor4: #335E46;
     --fonte0: Arial, Helvetica, sans-serif;
     --fonte1: 'Bebas Neue', cursive;
-    --fonte2: 'android', sans-serif
+    --fonte2: 'android1', sans-serif
 }
 
 *{
@@ -73,7 +68,7 @@ main{
 
 }
 h1, h2{
-    font-family: 'android';
+    font-family: 'android1';
     font-weight: 100;
 }
 h1#titulo{
