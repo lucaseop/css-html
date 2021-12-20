@@ -1,3 +1,5 @@
+@charset "UTF-8"
+
 @font-face {
     font-family: 'android' ;
     src: url('fontes/idroid.otf') format('truetype');
@@ -11,32 +13,63 @@
     font-style: normal;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+:root{
+    --cor0: #C5EBD6;
+    --cor1: #7BE3AA;
+    --cor2: #BADECA;
+    --cor3: #90AB9C;
+    --cor4: #335E46;
+    --fonte0: Arial, Helvetica, sans-serif;
+    --fonte1: 'Bebas Neue', cursive;
+    --fonte2: 'android', sans-serif
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: var(--fonte0);
+    color: var(--cor0);
+    background-color: var(--cor1);
+}
+
 header{
-    font-family: 'colvetica';
-    background-color: green;
+    background-color: var(--cor4);
     color: white;
     text-align: center;
     font-weight: 100;
+    padding-bottom: 10px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.274);
+}
+header > h1{
+    font-family: var(--fonte1);
 }
 nav{
     text-align: left;
     padding: 10px;
+    background-color: var(--cor4);
 }
 a{
     color: white;
     text-decoration: none;
 }
 #inicio{
-    width: 280px;
+    width: 420px;
     margin: auto;
 }
-body{
-    background-color: lightgreen;
-}
+
 main{
     background-color: white;
-    padding-top: 1px;
+    padding: 20px;
+    border-radius: 10px;
+    min-width: 320px;
+    max-width: 800px;
     margin: auto;
+    color: black;
 
 }
 h1, h2{
@@ -50,9 +83,9 @@ p{
     font-family: sans-serif;
 }
 footer{
-    background-color: darkgreen;
+    background-color: var(--cor4);
     color: white;
-    font-family: sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     font-size: small;
     padding: 5px;
@@ -65,15 +98,34 @@ footer{
 span{
       padding: 10px;
 }
-#video{
-    background-color: darkgreen;
-    padding-top: 10px;
+div#video{
+    position: relative;
+    background-color: var(--cor4);
+    height: 0px;
+    margin-left: -20px;
+    margin-right: -20px;
+    margin-bottom: 15px;
+    padding-bottom: 59%;
 }
-main > aside{
+
+div#video > iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+main >{
     background-color: lightblue;
 }
 h3{
     background-color: green;
     color: white;
-    font-family: sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px 5px 0px 0px;
+}
+ul{
+    list-style-type: '\2714\0020\0020';
+    columns: 2;
+    list-style-position: inside;
 }
