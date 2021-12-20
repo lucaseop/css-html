@@ -1,0 +1,64 @@
+@font-face {
+    font-family: 'android' ;
+    src: url('fontes/idroid.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'colvetica' ;
+    src: url('fontes/FontsFree-Net-coolvetica-condensed-rg.ttf') format('truetype');
+    font-weight: lighter;
+    font-style: normal;
+}
+
+header{
+    font-family: 'colvetica';
+    background-color: green;
+    color: white;
+    text-align: center;
+    font-weight: 100;
+}
+nav{
+    text-align: left;
+    padding: 10px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+#inicio{
+    width: 280px;
+    margin: auto;
+}
+body{
+    background-color: lightgreen;
+}
+main{
+    background-color: white;
+    padding-top: 1px;
+    margin: auto;
+
+}
+h1, h2{
+    font-family: 'android';
+    font-weight: 100;
+}
+h1#titulo{
+    font-family: 'colvetica';
+}
+p{
+    font-family: sans-serif;
+}
+footer{
+    background-color: darkgreen;
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: small;
+    padding: 5px;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
