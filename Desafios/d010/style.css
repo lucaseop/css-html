@@ -47,7 +47,7 @@ header{
     padding-top: 40px;
 }
 
-header> p{
+div#inicio{
     font-size: 1.2em;
     font-family: var(--fonte0);
     padding-right: 10px;
@@ -87,6 +87,12 @@ main{
 }
 main img{
     width: 100%;
+    padding-bottom: 5px;
+    display: block;
+}
+
+#pequena{
+    max-width: 350px;
 }
 
 h1#titulo{
@@ -94,15 +100,30 @@ h1#titulo{
     font-size: 3em;
     margin-bottom: 20px;
 }
-h1, h2{
+main h1{
     font-family: var(--fonte2);
     font-weight: 100;
+    color: var(--cor4);
+    
+}
+
+main h2{
+    font-family: var(--fonte2);
+    font-weight: 100;
+    color: var(--cor4);
+    font-size: 1.3em;
+    background-image: linear-gradient(to right, var(--cor1), transparent);
+    text-indent: 8px;
     
 }
 
 
-p{
+main p{
     font-family: sans-serif;
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 1em;
 }
 footer{
     background-color: var(--cor4);
