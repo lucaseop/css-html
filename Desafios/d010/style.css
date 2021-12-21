@@ -1,8 +1,12 @@
-@charset "UTF-8"
-
-}
 @font-face {
-    font-family: 'android1' ;
+    font-family: 'idroid' ;
+    src: url('fontes/idroid.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'colvetica' ;
     src: url('fontes/FontsFree-Net-coolvetica-condensed-rg.ttf') format('truetype');
     font-weight: lighter;
     font-style: normal;
@@ -18,7 +22,7 @@
     --cor4: #335E46;
     --fonte0: Arial, Helvetica, sans-serif;
     --fonte1: 'Bebas Neue', cursive;
-    --fonte2: 'android1', sans-serif
+    --fonte2: 'idroid'
 }
 
 *{
@@ -27,10 +31,10 @@
 }
 
 body{
-    font-family: var(--fonte0);
     color: var(--cor0);
     background-color: var(--cor1);
 }
+
 
 header{
     background-color: var(--cor4);
@@ -40,9 +44,7 @@ header{
     padding-bottom: 10px;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.274);
 }
-header > h1{
-    font-family: var(--fonte1);
-}
+
 nav{
     text-align: left;
     padding: 10px;
@@ -67,13 +69,17 @@ main{
     color: black;
 
 }
-h1, h2{
-    font-family: 'android1';
-    font-weight: 100;
-}
+
 h1#titulo{
     font-family: 'colvetica';
 }
+h1, h2{
+    font-family: var(--fonte2);
+    font-weight: 100;
+    
+}
+
+
 p{
     font-family: sans-serif;
 }
@@ -110,9 +116,7 @@ div#video > iframe{
     width: 90%;
     height: 90%;
 }
-main >{
-    background-color: lightblue;
-}
+
 h3{
     background-color: green;
     color: white;
